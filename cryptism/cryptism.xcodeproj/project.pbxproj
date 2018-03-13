@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C8A82A509DC0A4F51F072E7 /* Pods_cryptism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A751C15C0719C1A28D577465 /* Pods_cryptism.framework */; };
+		B2F7F32118F0EF3555335060 /* Pods_cryptismTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C950BB06C857AD9567B8D5 /* Pods_cryptismTests.framework */; };
+		BA735274575FCA6AB424D1B1 /* Pods_cryptismUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89EC23E1D4E6DA27B96F88F /* Pods_cryptismUITests.framework */; };
 		F6E1D9892057B64800AD5D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D9882057B64800AD5D5A /* AppDelegate.swift */; };
 		F6E1D98C2057B64800AD5D5A /* cryptism.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D98A2057B64800AD5D5A /* cryptism.xcdatamodeld */; };
 		F6E1D98E2057B64800AD5D5A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D98D2057B64800AD5D5A /* MasterViewController.swift */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45DFE7F40288416B47B3E291 /* Pods-cryptismUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptismUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cryptismUITests/Pods-cryptismUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60F4A72A773F96E3D38109DF /* Pods-cryptismUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptismUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cryptismUITests/Pods-cryptismUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68FB98EAD0E22AD8AED6194B /* Pods-cryptism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptism.release.xcconfig"; path = "Pods/Target Support Files/Pods-cryptism/Pods-cryptism.release.xcconfig"; sourceTree = "<group>"; };
+		6D01E53BF70897FB6112B42D /* Pods-cryptismTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptismTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cryptismTests/Pods-cryptismTests.release.xcconfig"; sourceTree = "<group>"; };
+		A751C15C0719C1A28D577465 /* Pods_cryptism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cryptism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C950BB06C857AD9567B8D5 /* Pods_cryptismTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cryptismTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA6AF918DAF9D5F4922AAA3 /* Pods-cryptismTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptismTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cryptismTests/Pods-cryptismTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2942933BA950B88F5511688 /* Pods-cryptism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptism.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cryptism/Pods-cryptism.debug.xcconfig"; sourceTree = "<group>"; };
+		E89EC23E1D4E6DA27B96F88F /* Pods_cryptismUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cryptismUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E1D9852057B64800AD5D5A /* cryptism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E1D9882057B64800AD5D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6E1D98B2057B64800AD5D5A /* cryptism.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cryptism.xcdatamodel; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8A82A509DC0A4F51F072E7 /* Pods_cryptism.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F7F32118F0EF3555335060 /* Pods_cryptismTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA735274575FCA6AB424D1B1 /* Pods_cryptismUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B4B8BCC81B39906D100DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A751C15C0719C1A28D577465 /* Pods_cryptism.framework */,
+				B7C950BB06C857AD9567B8D5 /* Pods_cryptismTests.framework */,
+				E89EC23E1D4E6DA27B96F88F /* Pods_cryptismUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47316284AF12A43F993DB1D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2942933BA950B88F5511688 /* Pods-cryptism.debug.xcconfig */,
+				68FB98EAD0E22AD8AED6194B /* Pods-cryptism.release.xcconfig */,
+				BDA6AF918DAF9D5F4922AAA3 /* Pods-cryptismTests.debug.xcconfig */,
+				6D01E53BF70897FB6112B42D /* Pods-cryptismTests.release.xcconfig */,
+				60F4A72A773F96E3D38109DF /* Pods-cryptismUITests.debug.xcconfig */,
+				45DFE7F40288416B47B3E291 /* Pods-cryptismUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F6E1D97C2057B64700AD5D5A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				F6E1D9A12057B64800AD5D5A /* cryptismTests */,
 				F6E1D9AC2057B64800AD5D5A /* cryptismUITests */,
 				F6E1D9862057B64800AD5D5A /* Products */,
+				47316284AF12A43F993DB1D9 /* Pods */,
+				19B4B8BCC81B39906D100DBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E1D9B22057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptism" */;
 			buildPhases = (
+				CB21A51BF67B96744B11815A /* [CP] Check Pods Manifest.lock */,
 				F6E1D9812057B64700AD5D5A /* Sources */,
 				F6E1D9822057B64700AD5D5A /* Frameworks */,
 				F6E1D9832057B64700AD5D5A /* Resources */,
+				B9EA1B8118B218D9BB7A063B /* [CP] Embed Pods Frameworks */,
+				10524D7737CE7C9FD62E3322 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E1D9B52057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptismTests" */;
 			buildPhases = (
+				4E57C34BEAC1630A2A689564 /* [CP] Check Pods Manifest.lock */,
 				F6E1D99A2057B64800AD5D5A /* Sources */,
 				F6E1D99B2057B64800AD5D5A /* Frameworks */,
 				F6E1D99C2057B64800AD5D5A /* Resources */,
+				FE885376EF444F13B8890E9D /* [CP] Embed Pods Frameworks */,
+				12FD472DE17E1E21F88DBAF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E1D9B82057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptismUITests" */;
 			buildPhases = (
+				9F9A1B802707350CC0633A83 /* [CP] Check Pods Manifest.lock */,
 				F6E1D9A52057B64800AD5D5A /* Sources */,
 				F6E1D9A62057B64800AD5D5A /* Frameworks */,
 				F6E1D9A72057B64800AD5D5A /* Resources */,
+				A0C7011197CBA30B94B5CAB4 /* [CP] Embed Pods Frameworks */,
+				243BD617D7BF8B1BC2F5DB7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10524D7737CE7C9FD62E3322 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cryptism/Pods-cryptism-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12FD472DE17E1E21F88DBAF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cryptismTests/Pods-cryptismTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		243BD617D7BF8B1BC2F5DB7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cryptismUITests/Pods-cryptismUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E57C34BEAC1630A2A689564 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cryptismTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9A1B802707350CC0633A83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cryptismUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C7011197CBA30B94B5CAB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cryptismUITests/Pods-cryptismUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EA1B8118B218D9BB7A063B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cryptism/Pods-cryptism-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB21A51BF67B96744B11815A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cryptism-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE885376EF444F13B8890E9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cryptismTests/Pods-cryptismTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6E1D9812057B64700AD5D5A /* Sources */ = {
@@ -432,6 +628,7 @@
 		};
 		F6E1D9B32057B64800AD5D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2942933BA950B88F5511688 /* Pods-cryptism.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +644,7 @@
 		};
 		F6E1D9B42057B64800AD5D5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FB98EAD0E22AD8AED6194B /* Pods-cryptism.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +660,7 @@
 		};
 		F6E1D9B62057B64800AD5D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA6AF918DAF9D5F4922AAA3 /* Pods-cryptismTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +678,7 @@
 		};
 		F6E1D9B72057B64800AD5D5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D01E53BF70897FB6112B42D /* Pods-cryptismTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +696,7 @@
 		};
 		F6E1D9B92057B64800AD5D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F4A72A773F96E3D38109DF /* Pods-cryptismUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +713,7 @@
 		};
 		F6E1D9BA2057B64800AD5D5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DFE7F40288416B47B3E291 /* Pods-cryptismUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
