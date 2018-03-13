@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6E1D9892057B64800AD5D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D9882057B64800AD5D5A /* AppDelegate.swift */; };
+		F6E1D98C2057B64800AD5D5A /* cryptism.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D98A2057B64800AD5D5A /* cryptism.xcdatamodeld */; };
+		F6E1D98E2057B64800AD5D5A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D98D2057B64800AD5D5A /* MasterViewController.swift */; };
+		F6E1D9902057B64800AD5D5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D98F2057B64800AD5D5A /* DetailViewController.swift */; };
+		F6E1D9932057B64800AD5D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E1D9912057B64800AD5D5A /* Main.storyboard */; };
+		F6E1D9952057B64800AD5D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E1D9942057B64800AD5D5A /* Assets.xcassets */; };
+		F6E1D9982057B64800AD5D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E1D9962057B64800AD5D5A /* LaunchScreen.storyboard */; };
+		F6E1D9A32057B64800AD5D5A /* cryptismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D9A22057B64800AD5D5A /* cryptismTests.swift */; };
+		F6E1D9AE2057B64800AD5D5A /* cryptismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1D9AD2057B64800AD5D5A /* cryptismUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6E1D99F2057B64800AD5D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E1D97D2057B64700AD5D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E1D9842057B64700AD5D5A;
+			remoteInfo = cryptism;
+		};
+		F6E1D9AA2057B64800AD5D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E1D97D2057B64700AD5D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E1D9842057B64700AD5D5A;
+			remoteInfo = cryptism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6E1D9852057B64800AD5D5A /* cryptism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E1D9882057B64800AD5D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6E1D98B2057B64800AD5D5A /* cryptism.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cryptism.xcdatamodel; sourceTree = "<group>"; };
+		F6E1D98D2057B64800AD5D5A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		F6E1D98F2057B64800AD5D5A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F6E1D9922057B64800AD5D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6E1D9942057B64800AD5D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6E1D9972057B64800AD5D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6E1D9992057B64800AD5D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E1D99E2057B64800AD5D5A /* cryptismTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cryptismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E1D9A22057B64800AD5D5A /* cryptismTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptismTests.swift; sourceTree = "<group>"; };
+		F6E1D9A42057B64800AD5D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E1D9A92057B64800AD5D5A /* cryptismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cryptismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E1D9AD2057B64800AD5D5A /* cryptismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptismUITests.swift; sourceTree = "<group>"; };
+		F6E1D9AF2057B64800AD5D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E1D9822057B64700AD5D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E1D99B2057B64800AD5D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E1D9A62057B64800AD5D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6E1D97C2057B64700AD5D5A = {
+			isa = PBXGroup;
+			children = (
+				F6E1D9872057B64800AD5D5A /* cryptism */,
+				F6E1D9A12057B64800AD5D5A /* cryptismTests */,
+				F6E1D9AC2057B64800AD5D5A /* cryptismUITests */,
+				F6E1D9862057B64800AD5D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E1D9862057B64800AD5D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E1D9852057B64800AD5D5A /* cryptism.app */,
+				F6E1D99E2057B64800AD5D5A /* cryptismTests.xctest */,
+				F6E1D9A92057B64800AD5D5A /* cryptismUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E1D9872057B64800AD5D5A /* cryptism */ = {
+			isa = PBXGroup;
+			children = (
+				F6E1D9882057B64800AD5D5A /* AppDelegate.swift */,
+				F6E1D98D2057B64800AD5D5A /* MasterViewController.swift */,
+				F6E1D98F2057B64800AD5D5A /* DetailViewController.swift */,
+				F6E1D9912057B64800AD5D5A /* Main.storyboard */,
+				F6E1D9942057B64800AD5D5A /* Assets.xcassets */,
+				F6E1D9962057B64800AD5D5A /* LaunchScreen.storyboard */,
+				F6E1D9992057B64800AD5D5A /* Info.plist */,
+				F6E1D98A2057B64800AD5D5A /* cryptism.xcdatamodeld */,
+			);
+			path = cryptism;
+			sourceTree = "<group>";
+		};
+		F6E1D9A12057B64800AD5D5A /* cryptismTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E1D9A22057B64800AD5D5A /* cryptismTests.swift */,
+				F6E1D9A42057B64800AD5D5A /* Info.plist */,
+			);
+			path = cryptismTests;
+			sourceTree = "<group>";
+		};
+		F6E1D9AC2057B64800AD5D5A /* cryptismUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E1D9AD2057B64800AD5D5A /* cryptismUITests.swift */,
+				F6E1D9AF2057B64800AD5D5A /* Info.plist */,
+			);
+			path = cryptismUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E1D9842057B64700AD5D5A /* cryptism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E1D9B22057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptism" */;
+			buildPhases = (
+				F6E1D9812057B64700AD5D5A /* Sources */,
+				F6E1D9822057B64700AD5D5A /* Frameworks */,
+				F6E1D9832057B64700AD5D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cryptism;
+			productName = cryptism;
+			productReference = F6E1D9852057B64800AD5D5A /* cryptism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6E1D99D2057B64800AD5D5A /* cryptismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E1D9B52057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptismTests" */;
+			buildPhases = (
+				F6E1D99A2057B64800AD5D5A /* Sources */,
+				F6E1D99B2057B64800AD5D5A /* Frameworks */,
+				F6E1D99C2057B64800AD5D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E1D9A02057B64800AD5D5A /* PBXTargetDependency */,
+			);
+			name = cryptismTests;
+			productName = cryptismTests;
+			productReference = F6E1D99E2057B64800AD5D5A /* cryptismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6E1D9A82057B64800AD5D5A /* cryptismUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E1D9B82057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptismUITests" */;
+			buildPhases = (
+				F6E1D9A52057B64800AD5D5A /* Sources */,
+				F6E1D9A62057B64800AD5D5A /* Frameworks */,
+				F6E1D9A72057B64800AD5D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E1D9AB2057B64800AD5D5A /* PBXTargetDependency */,
+			);
+			name = cryptismUITests;
+			productName = cryptismUITests;
+			productReference = F6E1D9A92057B64800AD5D5A /* cryptismUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E1D97D2057B64700AD5D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Swiftline;
+				TargetAttributes = {
+					F6E1D9842057B64700AD5D5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6E1D99D2057B64800AD5D5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6E1D9842057B64700AD5D5A;
+					};
+					F6E1D9A82057B64800AD5D5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6E1D9842057B64700AD5D5A;
+					};
+				};
+			};
+			buildConfigurationList = F6E1D9802057B64700AD5D5A /* Build configuration list for PBXProject "cryptism" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6E1D97C2057B64700AD5D5A;
+			productRefGroup = F6E1D9862057B64800AD5D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E1D9842057B64700AD5D5A /* cryptism */,
+				F6E1D99D2057B64800AD5D5A /* cryptismTests */,
+				F6E1D9A82057B64800AD5D5A /* cryptismUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E1D9832057B64700AD5D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E1D9982057B64800AD5D5A /* LaunchScreen.storyboard in Resources */,
+				F6E1D9952057B64800AD5D5A /* Assets.xcassets in Resources */,
+				F6E1D9932057B64800AD5D5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E1D99C2057B64800AD5D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E1D9A72057B64800AD5D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E1D9812057B64700AD5D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E1D98C2057B64800AD5D5A /* cryptism.xcdatamodeld in Sources */,
+				F6E1D9892057B64800AD5D5A /* AppDelegate.swift in Sources */,
+				F6E1D98E2057B64800AD5D5A /* MasterViewController.swift in Sources */,
+				F6E1D9902057B64800AD5D5A /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E1D99A2057B64800AD5D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E1D9A32057B64800AD5D5A /* cryptismTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E1D9A52057B64800AD5D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E1D9AE2057B64800AD5D5A /* cryptismUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6E1D9A02057B64800AD5D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E1D9842057B64700AD5D5A /* cryptism */;
+			targetProxy = F6E1D99F2057B64800AD5D5A /* PBXContainerItemProxy */;
+		};
+		F6E1D9AB2057B64800AD5D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E1D9842057B64700AD5D5A /* cryptism */;
+			targetProxy = F6E1D9AA2057B64800AD5D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6E1D9912057B64800AD5D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E1D9922057B64800AD5D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6E1D9962057B64800AD5D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E1D9972057B64800AD5D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E1D9B02057B64800AD5D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6E1D9B12057B64800AD5D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E1D9B32057B64800AD5D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJXB25M5N5;
+				INFOPLIST_FILE = cryptism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.swiftline.cryptism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6E1D9B42057B64800AD5D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJXB25M5N5;
+				INFOPLIST_FILE = cryptism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.swiftline.cryptism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6E1D9B62057B64800AD5D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJXB25M5N5;
+				INFOPLIST_FILE = cryptismTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.swiftline.cryptismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cryptism.app/cryptism";
+			};
+			name = Debug;
+		};
+		F6E1D9B72057B64800AD5D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJXB25M5N5;
+				INFOPLIST_FILE = cryptismTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.swiftline.cryptismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cryptism.app/cryptism";
+			};
+			name = Release;
+		};
+		F6E1D9B92057B64800AD5D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJXB25M5N5;
+				INFOPLIST_FILE = cryptismUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.swiftline.cryptismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cryptism;
+			};
+			name = Debug;
+		};
+		F6E1D9BA2057B64800AD5D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJXB25M5N5;
+				INFOPLIST_FILE = cryptismUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.swiftline.cryptismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cryptism;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E1D9802057B64700AD5D5A /* Build configuration list for PBXProject "cryptism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E1D9B02057B64800AD5D5A /* Debug */,
+				F6E1D9B12057B64800AD5D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E1D9B22057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E1D9B32057B64800AD5D5A /* Debug */,
+				F6E1D9B42057B64800AD5D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E1D9B52057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E1D9B62057B64800AD5D5A /* Debug */,
+				F6E1D9B72057B64800AD5D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E1D9B82057B64800AD5D5A /* Build configuration list for PBXNativeTarget "cryptismUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E1D9B92057B64800AD5D5A /* Debug */,
+				F6E1D9BA2057B64800AD5D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6E1D98A2057B64800AD5D5A /* cryptism.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6E1D98B2057B64800AD5D5A /* cryptism.xcdatamodel */,
+			);
+			currentVersion = F6E1D98B2057B64800AD5D5A /* cryptism.xcdatamodel */;
+			path = cryptism.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6E1D97D2057B64700AD5D5A /* Project object */;
+}
